@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Практическая работа № 7 — Задание 3</title>
+</head>
+<body >
+<p align="center"><a href="index.html">Задание 1</a> | <a href="task2.html">Задание 2</a> | <a href="task3.html">Задание 3</a></p><h2>Анкета</h2>
+<form action="result.html" method="post">
+<table border="0" cellpadding="4">
+<tr><td>Имя:</td><td><input type="text" name="name" value="Рамин"></td></tr>
+<tr><td>Фамилия:</td><td><input type="text" name="surname" value="Каракотов"></td></tr>
+<tr><td>Пароль:</td><td><input type="password" name="password"></td></tr>
+<tr><td>Ваш пол:</td><td><input type="radio" name="gender" value="male" checked> муж. <input type="radio" name="gender" value="female"> жен.</td></tr>
+</table>
+<p>Любимые предметы:</p><input type="checkbox" name="subject1" value="yes"> русский язык<br><input type="checkbox" name="subject2" value="yes"> литература<br><input type="checkbox" name="subject3" value="yes"> математика<br><input type="checkbox" name="subject4" value="yes"> химия<br><input type="checkbox" name="subject5" value="yes"> физика<br><input type="checkbox" name="subject6" value="yes"> история<br><input type="checkbox" name="subject7" value="yes"> информатика<br><input type="checkbox" name="subject8" value="yes"> английский язык<br><input type="checkbox" name="subject9" value="yes"> МХК<br><input type="checkbox" name="subject10" value="yes"> физкультура<br>
+<p>Сколько времени тратите на выполнение домашнего задания:<br>
+<select name="homework"><option value="lt20">меньше 20 минут</option><option value="20-40">20-40 минут</option><option value="40-60">40-60 минут</option><option value="gt60">больше часа</option></select></p>
+<p>Предложение:<br><textarea name="suggestion" rows="3" cols="30"></textarea></p>
+<p><input type="reset" value="Очистить анкету"> <input type="submit" value="Отправить анкету"></p>
+</form>
+</body>
+</html>
